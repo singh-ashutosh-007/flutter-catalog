@@ -1,12 +1,13 @@
 class CatalogModel {
-  final items = [
+  static final items = [
     Item(
       id: 1,
       name: "Iphone 12 pro",
       desc: "Apple ",
       price: 900,
       color: "#33505a",
-      image: "https://sadasads",
+      image:
+          "https://i.picsum.photos/id/758/200/300.jpg?hmac=lQtDVVjQGklGEIBCA-5yXBI3L8zkkeGObzmCi-rUFKo",
     )
   ];
 }
