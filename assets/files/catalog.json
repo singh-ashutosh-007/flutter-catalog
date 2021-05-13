@@ -7,6 +7,22 @@
             "price": 900,
             "color": "#33505a",
             "image": "https://i.picsum.photos/id/758/200/300.jpg?hmac=lQtDVVjQGklGEIBCA-5yXBI3L8zkkeGObzmCi-rUFKo"
+        },
+        {
+            "id": 3,
+            "name": "Iphone 12 pro",
+            "desc": "Apple ",
+            "price": 900,
+            "color": "#33505a",
+            "image": "https://i.picsum.photos/id/758/200/300.jpg?hmac=lQtDVVjQGklGEIBCA-5yXBI3L8zkkeGObzmCi-rUFKo"
+        },
+        {
+            "id": 2,
+            "name": "Iphone 12 pro",
+            "desc": "Apple ",
+            "price": 900,
+            "color": "#33505a",
+            "image": "https://i.picsum.photos/id/758/200/300.jpg?hmac=lQtDVVjQGklGEIBCA-5yXBI3L8zkkeGObzmCi-rUFKo"
         }
     ]
 }
