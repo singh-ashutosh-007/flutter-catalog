@@ -1,28 +1,716 @@
 {
     "products": [
         {
-            "id": 1,
-            "name": "Iphone 12 pro",
-            "desc": "Apple ",
-            "price": 900,
-            "color": "#33505a",
-            "image": "https://i.picsum.photos/id/758/200/300.jpg?hmac=lQtDVVjQGklGEIBCA-5yXBI3L8zkkeGObzmCi-rUFKo"
+            "sku": 1003641,
+            "name": "M. Night Shyamalan: The Last Airbender - Nintendo Wii",
+            "type": "Game",
+            "price": 19.99,
+            "upc": "785138302515",
+            "category": [
+                {
+                    "id": "abcat0700000",
+                    "name": "Video Games"
+                },
+                {
+                    "id": "abcat0706000",
+                    "name": "Wii"
+                },
+                {
+                    "id": "abcat0706002",
+                    "name": "Wii Games"
+                }
+            ],
+            "shipping": 3.99,
+            "description": "Harness the power of Air and Fire as you join a quest for honor and power",
+            "manufacturer": "THQ",
+            "model": "30251",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/m-night-shyamalan-the-last-airbender-nintendo-wii/1003641.p?id=1218208317435&skuId=1003641&cmp=RMXCC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1003/1003641_500x500_sa.jpg"
         },
         {
-            "id": 3,
-            "name": "Iphone 12 pro",
-            "desc": "Apple ",
-            "price": 900,
-            "color": "#33505a",
-            "image": "https://i.picsum.photos/id/758/200/300.jpg?hmac=lQtDVVjQGklGEIBCA-5yXBI3L8zkkeGObzmCi-rUFKo"
+            "sku": 1003668,
+            "name": "Aquarius - The Beatles Street 1,000-Piece Jigsaw Puzzle - Black/White/Brown",
+            "type": "HardGood",
+            "price": 15.99,
+            "upc": "840391103801",
+            "category": [
+                {
+                    "id": "pcmcat252700050006",
+                    "name": "Toys, Games & Drones"
+                },
+                {
+                    "id": "pcmcat274200050008",
+                    "name": "Games, Puzzles & Cards"
+                },
+                {
+                    "id": "pcmcat274200050009",
+                    "name": "Puzzles"
+                }
+            ],
+            "shipping": 5.99,
+            "description": "AQUARIUS The Beatles Street 1,000-Piece Jigsaw Puzzle: 1,000 pieces; features an image of The Beatles walking down the street; measures 20\" x 27\" when completed",
+            "manufacturer": "Aquarius",
+            "model": "65238",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/aquarius-the-beatles-street-1000-piece-jigsaw-puzzle-black-white-brown/1003668.p?id=1219460763580&skuId=1003668&cmp=RMXCC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1003/1003668_sa.jpg"
         },
         {
-            "id": 2,
-            "name": "Iphone 12 pro",
-            "desc": "Apple ",
-            "price": 900,
-            "color": "#33505a",
-            "image": "https://i.picsum.photos/id/758/200/300.jpg?hmac=lQtDVVjQGklGEIBCA-5yXBI3L8zkkeGObzmCi-rUFKo"
+            "sku": 1004002,
+            "name": "Canon - EOS Rebel T5 DSLR Camera with 18-55mm and 75-300mm Lenses - Black",
+            "type": "HardGood",
+            "price": 749.99,
+            "upc": "660685134881",
+            "category": [
+                {
+                    "id": "abcat0400000",
+                    "name": "Cameras & Camcorders"
+                },
+                {
+                    "id": "abcat0401000",
+                    "name": "Digital Cameras"
+                },
+                {
+                    "id": "abcat0401005",
+                    "name": "Digital SLR Cameras"
+                },
+                {
+                    "id": "pcmcat180400050000",
+                    "name": "DSLR Body & Lens"
+                }
+            ],
+            "shipping": 0,
+            "description": "18.0-megapixel APS-C CMOS sensorISO 100-6400, expandable to 12,800Shooting speeds up to 3 fpsFull high-definition movie mode",
+            "manufacturer": "Canon",
+            "model": "9126B069",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/canon-eos-rebel-t5-dslr-camera-with-18-55mm-and-75-300mm-lenses-black/1004002.p?id=1219459331617&skuId=1004002&cmp=RMXCC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1004/1004002_sa.jpg"
+        },
+        {
+            "sku": 1004622,
+            "name": "Sniper: Ghost Warrior - Xbox 360",
+            "type": "Game",
+            "price": 19.99,
+            "upc": "897749002569",
+            "category": [
+                {
+                    "id": "abcat0700000",
+                    "name": "Video Games"
+                },
+                {
+                    "id": "abcat0701000",
+                    "name": "Xbox 360"
+                },
+                {
+                    "id": "abcat0701002",
+                    "name": "Xbox 360 Games"
+                }
+            ],
+            "shipping": 3.99,
+            "description": "Control the power of death as you ghost through the jungle",
+            "manufacturer": "City Interactive",
+            "model": "8047365",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/sniper-ghost-warrior-xbox-360/1004622.p?id=1218207306495&skuId=1004622&cmp=RMXCC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1004/1004622_sa.jpg"
+        },
+        {
+            "sku": 1004668,
+            "name": "GoPro - Camera Roll Bar Mount - Black",
+            "type": "HardGood",
+            "price": 29.99,
+            "upc": "185323000132",
+            "category": [
+                {
+                    "id": "abcat0400000",
+                    "name": "Cameras & Camcorders"
+                },
+                {
+                    "id": "abcat0410022",
+                    "name": "Camcorder Accessories"
+                },
+                {
+                    "id": "pcmcat329700050009",
+                    "name": "Action Camcorder Accessories"
+                },
+                {
+                    "id": "pcmcat240500050057",
+                    "name": "Action Camcorder Mounts"
+                }
+            ],
+            "shipping": 5.49,
+            "description": "Compatible with most GoPro cameras; clamps to tubes or frames ranging from 1.4-2.5\" in diameter; pivoting orientation arms",
+            "manufacturer": "GoPro",
+            "model": "GRBM30",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/gopro-camera-roll-bar-mount-black/1004668.p?id=1218249515093&skuId=1004668&cmp=RMXCC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1004/1004668_rc.jpg"
+        },
+        {
+            "sku": 1004695,
+            "name": "GoPro - Camera Mount Accessory Kit - Black",
+            "type": "HardGood",
+            "price": 19.99,
+            "upc": "185323000309",
+            "category": [
+                {
+                    "id": "abcat0400000",
+                    "name": "Cameras & Camcorders"
+                },
+                {
+                    "id": "abcat0410022",
+                    "name": "Camcorder Accessories"
+                },
+                {
+                    "id": "pcmcat329700050009",
+                    "name": "Action Camcorder Accessories"
+                },
+                {
+                    "id": "pcmcat240500050057",
+                    "name": "Action Camcorder Mounts"
+                },
+                {
+                    "id": "pcmcat329700050020",
+                    "name": "Handlebar/Seatpost Mounts"
+                }
+            ],
+            "shipping": 5.49,
+            "description": "Compatible with most GoPro cameras; includes a variety of camera mounting accessories",
+            "manufacturer": "GoPro",
+            "model": "AGBAG-001",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/gopro-camera-mount-accessory-kit-black/1004695.p?id=1218249514954&skuId=1004695&cmp=RMXCC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1004/1004695_rc.jpg"
+        },
+        {
+            "sku": 1004804,
+            "name": "GoPro - Chest Mount Harness - Black",
+            "type": "HardGood",
+            "price": 39.99,
+            "upc": "185323000989",
+            "category": [
+                {
+                    "id": "abcat0400000",
+                    "name": "Cameras & Camcorders"
+                },
+                {
+                    "id": "abcat0410022",
+                    "name": "Camcorder Accessories"
+                },
+                {
+                    "id": "pcmcat329700050009",
+                    "name": "Action Camcorder Accessories"
+                },
+                {
+                    "id": "pcmcat240500050057",
+                    "name": "Action Camcorder Mounts"
+                },
+                {
+                    "id": "pcmcat329700050017",
+                    "name": "Chest Mounts"
+                }
+            ],
+            "shipping": 0,
+            "description": "Compatible with most GoPro cameras; one-size-fits-all adjustability",
+            "manufacturer": "GoPro",
+            "model": "GCHM30",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/gopro-chest-mount-harness-black/1004804.p?id=1218249514750&skuId=1004804&cmp=RMXCC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1004/1004804_rc.jpg"
+        },
+        {
+            "sku": 1004831,
+            "name": "GoPro - Ride HERO Handlebar Seatpost Mount - Black",
+            "type": "HardGood",
+            "price": 19.99,
+            "upc": "185323000064",
+            "category": [
+                {
+                    "id": "abcat0400000",
+                    "name": "Cameras & Camcorders"
+                },
+                {
+                    "id": "abcat0410022",
+                    "name": "Camcorder Accessories"
+                },
+                {
+                    "id": "pcmcat329700050009",
+                    "name": "Action Camcorder Accessories"
+                },
+                {
+                    "id": "pcmcat240500050057",
+                    "name": "Action Camcorder Mounts"
+                },
+                {
+                    "id": "pcmcat329700050020",
+                    "name": "Handlebar/Seatpost Mounts"
+                }
+            ],
+            "shipping": 5.49,
+            "description": "Compatible with most GoPro cameras; clamps on tubes 3/4\" - 1-1/2\" in diameter; pivoting orientation arms with 3-way adjustability",
+            "manufacturer": "GoPro",
+            "model": "GRH30",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/gopro-ride-hero-handlebar-seatpost-mount-black/1004831.p?id=1218249515161&skuId=1004831&cmp=RMXCC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1004/1004831_rc.jpg"
+        },
+        {
+            "sku": 1005118,
+            "name": "American DJ - Dura Clamp",
+            "type": "HardGood",
+            "price": 9.99,
+            "upc": "640282015868",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050020",
+                    "name": "Recording Equipment"
+                },
+                {
+                    "id": "pcmcat205700050037",
+                    "name": "Recording Furniture & Stands"
+                },
+                {
+                    "id": "pcmcat251600050005",
+                    "name": "Recording & Music Stands"
+                }
+            ],
+            "shipping": 5.49,
+            "description": "From our expanded online assortment; designed for use with the Dura Truss system; supports lighting fixtures up to 20 lbs.; fits 1/2\" truss rods",
+            "manufacturer": "American DJ",
+            "model": "Dura Clamp",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-dura-clamp/1005118.p?id=1218207308279&skuId=1005118CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005118_sa.jpg"
+        },
+        {
+            "sku": 1005181,
+            "name": "American DJ - 20\" Glass Mirror Ball",
+            "type": "HardGood",
+            "price": 89.99,
+            "upc": "640282034272",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050027",
+                    "name": "DJ & Lighting Equipment"
+                },
+                {
+                    "id": "pcmcat152100050032",
+                    "name": "DJ Lighting & Effects"
+                }
+            ],
+            "shipping": 0,
+            "description": "Compatible with M-101 and M-103 mirror ball motors; glass material",
+            "manufacturer": "American DJ",
+            "model": "M-2020",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-20-glass-mirror-ball/1005181.p?id=1218207307176&skuId=1005181CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005181_sa.jpg"
+        },
+        {
+            "sku": 1005215,
+            "name": "American DJ - Elation 4-Channel Chase Controller - Black",
+            "type": "HardGood",
+            "price": 59.99,
+            "upc": "640282052917",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050027",
+                    "name": "DJ & Lighting Equipment"
+                },
+                {
+                    "id": "pcmcat152100050032",
+                    "name": "DJ Lighting & Effects"
+                }
+            ],
+            "shipping": 0,
+            "description": "From our expanded online assortment; instant sound-to-light chase; timed, audio and chase modes; built-in microphone",
+            "manufacturer": "American DJ",
+            "model": "T4",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-elation-4-channel-chase-controller-black/1005215.p?id=1218207312107&skuId=1005215CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005215_sa.jpg"
+        },
+        {
+            "sku": 1005288,
+            "name": "American DJ - Color Gel Filter (4-Pack)",
+            "type": "HardGood",
+            "price": 12.99,
+            "upc": "640282014441",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050027",
+                    "name": "DJ & Lighting Equipment"
+                },
+                {
+                    "id": "pcmcat152100050032",
+                    "name": "DJ Lighting & Effects"
+                }
+            ],
+            "shipping": 5.49,
+            "description": "Designed for use with most Par-56 can gel frames; red, blue, yellow and green gel filters",
+            "manufacturer": "American DJ",
+            "model": "CGS-8A",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-color-gel-filter-4-pack/1005288.p?id=1218207302583&skuId=1005288CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005288_sa.jpg"
+        },
+        {
+            "sku": 1005297,
+            "name": "American DJ - Crystal Bright Accent Strip CW LED Strip (4-Pack) - White",
+            "type": "HardGood",
+            "price": 39.99,
+            "upc": "640282000734",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050027",
+                    "name": "DJ & Lighting Equipment"
+                },
+                {
+                    "id": "pcmcat152100050032",
+                    "name": "DJ Lighting & Effects"
+                }
+            ],
+            "shipping": 0,
+            "description": "From our expanded online assortment; 4 self-adhesive strips; cool white LEDs; AC adapter",
+            "manufacturer": "American DJ",
+            "model": "Accent Strip Black CW",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-crystal-bright-accent-strip-cw-led-strip-4-pack-white/1005297.p?id=1218207312036&skuId=1005297CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005297_sa.jpg"
+        },
+        {
+            "sku": 1005312,
+            "name": "American DJ - Tripod Stand - Black",
+            "type": "HardGood",
+            "price": 44.99,
+            "upc": "640282033763",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050020",
+                    "name": "Recording Equipment"
+                },
+                {
+                    "id": "pcmcat205700050037",
+                    "name": "Recording Furniture & Stands"
+                },
+                {
+                    "id": "pcmcat251600050005",
+                    "name": "Recording & Music Stands"
+                }
+            ],
+            "shipping": 0,
+            "description": "From our expanded online assortment; designed for use with most par cans, pin spots and lighting fixtures; extends up to 9'; collapsible design",
+            "manufacturer": "American DJ",
+            "model": "Lts-6",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-tripod-stand-black/1005312.p?id=1218207306201&skuId=1005312CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005312_sa.jpg"
+        },
+        {
+            "sku": 1005358,
+            "name": "American DJ - DMX Dimmer Pack",
+            "type": "HardGood",
+            "price": 199.99,
+            "upc": "640282044301",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050027",
+                    "name": "DJ & Lighting Equipment"
+                },
+                {
+                    "id": "pcmcat152100050032",
+                    "name": "DJ Lighting & Effects"
+                }
+            ],
+            "shipping": 0,
+            "description": "From our expanded online assortment; digital display; LED indicators; 16 built-in chases; reversible mounting brackets",
+            "manufacturer": "American DJ",
+            "model": "DP-DMX2",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-dmx-dimmer-pack/1005358.p?id=1218207306104&skuId=1005358CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005358_sa.jpg"
+        },
+        {
+            "sku": 1005409,
+            "name": "American DJ - 16\" Glass Mirror Ball",
+            "type": "HardGood",
+            "price": 54.99,
+            "upc": "640282034180",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050027",
+                    "name": "DJ & Lighting Equipment"
+                },
+                {
+                    "id": "pcmcat152100050032",
+                    "name": "DJ Lighting & Effects"
+                }
+            ],
+            "shipping": 0,
+            "description": "From our expanded online assortment; compatible with M-101 and M-103 mirror ball motors; glass material",
+            "manufacturer": "American DJ",
+            "model": "M-1616",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-16-glass-mirror-ball/1005409.p?id=1218207315272&skuId=1005409&cmp=RMXCC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005409_sa.jpg"
+        },
+        {
+            "sku": 1005454,
+            "name": "American DJ - Bubble Blast Bubble Machine",
+            "type": "HardGood",
+            "price": 299.99,
+            "upc": "640282012997",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050027",
+                    "name": "DJ & Lighting Equipment"
+                },
+                {
+                    "id": "pcmcat152100050032",
+                    "name": "DJ Lighting & Effects"
+                }
+            ],
+            "shipping": 0,
+            "description": "Compatible with most types of bubble liquid; dual-fan lift system; drainage valve system; top-load filling container; remote; on/off switch; wheels and dual handles",
+            "manufacturer": "American DJ",
+            "model": "Bubble ",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-bubble-blast-bubble-machine/1005454.p?id=1218207314448&skuId=1005454CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005454_rc.jpg"
+        },
+        {
+            "sku": 1005515,
+            "name": "American DJ - 12\" Glass Mirror Ball",
+            "type": "HardGood",
+            "price": 25.99,
+            "upc": "640282034128",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050027",
+                    "name": "DJ & Lighting Equipment"
+                },
+                {
+                    "id": "pcmcat152100050032",
+                    "name": "DJ Lighting & Effects"
+                }
+            ],
+            "shipping": 8.49,
+            "description": "From our expanded online assortment; glass material; portable",
+            "manufacturer": "American DJ",
+            "model": "M-1212",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-12-glass-mirror-ball/1005515.p?id=1218207307351&skuId=1005515&cmp=RMXCC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005515_sa.jpg"
+        },
+        {
+            "sku": 1005542,
+            "name": "American DJ - Par 46 Can Kit - Black",
+            "type": "HardGood",
+            "price": 44.99,
+            "upc": "640282010078",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050027",
+                    "name": "DJ & Lighting Equipment"
+                },
+                {
+                    "id": "pcmcat152100050032",
+                    "name": "DJ Lighting & Effects"
+                }
+            ],
+            "shipping": 0,
+            "description": "From our expanded online assortment; 200W lamp; 4 color gel filters; clamp; safety cable",
+            "manufacturer": "American DJ",
+            "model": "46 Black Combo",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-par-46-can-kit-black/1005542.p?id=1218207310574&skuId=1005542CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005542_sa.jpg"
+        },
+        {
+            "sku": 1005667,
+            "name": "American DJ - Elation Stage Pack",
+            "type": "HardGood",
+            "price": 499.99,
+            "upc": "640282051361",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050027",
+                    "name": "DJ & Lighting Equipment"
+                },
+                {
+                    "id": "pcmcat152100050032",
+                    "name": "DJ Lighting & Effects"
+                }
+            ],
+            "shipping": 0,
+            "description": "From our expanded online assortment; 16-channel DMX controller; 2 XLR cables; two 4-channel dimmers",
+            "manufacturer": "American DJ",
+            "model": "Stage Pak",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-elation-stage-pack/1005667.p?id=1218207310858&skuId=1005667CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005667_sa.jpg"
+        },
+        {
+            "sku": 1005694,
+            "name": "American DJ - DMX Mirror Ball Motor",
+            "type": "HardGood",
+            "price": 129.99,
+            "upc": "640282038324",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050027",
+                    "name": "DJ & Lighting Equipment"
+                },
+                {
+                    "id": "pcmcat152100050032",
+                    "name": "DJ Lighting & Effects"
+                }
+            ],
+            "shipping": 0,
+            "description": "From our expanded online assortment; designed for use with most mirror balls up to 20\"; 2 DMX channels; circuit breaker protection",
+            "manufacturer": "American DJ",
+            "model": "MB DMXII",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-dmx-mirror-ball-motor/1005694.p?id=1218207313618&skuId=1005694CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005694_rc.jpg"
+        },
+        {
+            "sku": 1005721,
+            "name": "American DJ - 5' CD Data Cable - Gray",
+            "type": "HardGood",
+            "price": 13.99,
+            "upc": "640282015844",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "abcat0208024",
+                    "name": "Musical Instrument Accessories"
+                },
+                {
+                    "id": "pcmcat152100050033",
+                    "name": "DJ Equipment Accessories"
+                }
+            ],
+            "shipping": 5.49,
+            "description": "Compatible with most dual CD players with an 8-pin to 8-pin connection; replacement cable",
+            "manufacturer": "American DJ",
+            "model": "CDD5",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-5-cd-data-cable-gray/1005721.p?id=1218207302785&skuId=1005721CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005721_sa.jpg"
+        },
+        {
+            "sku": 1005758,
+            "name": "American DJ - Dekker LED Effects Light - Black",
+            "type": "HardGood",
+            "price": 169.99,
+            "upc": "640282000994",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050027",
+                    "name": "DJ & Lighting Equipment"
+                },
+                {
+                    "id": "pcmcat152100050032",
+                    "name": "DJ Lighting & Effects"
+                }
+            ],
+            "shipping": 0,
+            "description": "From our expanded online assortment; colored beams and 40 lenses; 3-button DMX LED menu; strobe effect; hanging bracket",
+            "manufacturer": "American DJ",
+            "model": "Dekker ",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-dekker-led-effects-light-black/1005758.p?id=1218207311754&skuId=1005758CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005758_sa.jpg"
+        },
+        {
+            "sku": 1005794,
+            "name": "American DJ - Par 56 Can Kit - Black",
+            "type": "HardGood",
+            "price": 49.99,
+            "upc": "640282010085",
+            "category": [
+                {
+                    "id": "abcat0207000",
+                    "name": "Musical Instruments"
+                },
+                {
+                    "id": "pcmcat152100050027",
+                    "name": "DJ & Lighting Equipment"
+                },
+                {
+                    "id": "pcmcat152100050032",
+                    "name": "DJ Lighting & Effects"
+                }
+            ],
+            "shipping": 0,
+            "description": "From our expanded online assortment; 300W lamp; 4 color gel filters; clamp; safety cable",
+            "manufacturer": "American DJ",
+            "model": "56 Black Combo",
+            "color": "#ffff",
+            "url": "http://www.bestbuy.com/site/american-dj-par-56-can-kit-black/1005794.p?id=1218207304604&skuId=1005794CC",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/1005/1005794_sa.jpg"
         }
     ]
 }

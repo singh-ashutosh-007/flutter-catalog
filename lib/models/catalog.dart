@@ -62,9 +62,9 @@ class Item {
 
   factory Item.fromMap(Map<String, dynamic> map) {
     return Item(
-      id: map['id'],
+      id: map['sku'],
       name: map['name'],
-      desc: map['desc'],
+      desc: map['description'],
       price: map['price'],
       color: map['color'],
       image: map['image'],
