@@ -67,7 +67,7 @@ class _CartList extends StatelessWidget {
   // final _cart = CartModel();
   @override
   Widget build(BuildContext context) {
-    VxState.listen(context, to: [RemoveMutation]);
+    VxState.watch(context, on: [RemoveMutation]);
     final CartModel _cart = (VxState.store as MyStore).cart;
     return _cart.items.isEmpty
         ? "Nothing to show".text.xl2.makeCentered()
