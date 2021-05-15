@@ -7,7 +7,8 @@ class HomeDetailsPage extends StatelessWidget {
   final Item catalog;
 
   const HomeDetailsPage({Key? key, required this.catalog})
-      : assert(catalog != null),
+      :
+        // assert(catalog != null),
         super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -51,7 +52,9 @@ class HomeDetailsPage extends StatelessWidget {
                           .color(Theme.of(context).accentColor)
                           .bold
                           .make(),
-                      catalog.desc!.text.textStyle(context.captionStyle!).make(),
+                      catalog.desc!.text
+                          .textStyle(context.captionStyle!)
+                          .make(),
                       10.heightBox,
                       "Feels lineage made begun friends fondly vast amiss. Before by harold to near to not. Fly caught known not companie.."
                           .text
