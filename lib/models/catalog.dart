@@ -13,6 +13,11 @@ class CatalogModel {
   //         "https://i.picsum.photos/id/758/200/300.jpg?hmac=lQtDVVjQGklGEIBCA-5yXBI3L8zkkeGObzmCi-rUFKo",
   //   )
   // ];
+
+  static Item getById(int id) =>
+      items.firstWhere((element) => element.id == id, orElse: null);
+
+  static Item getByPosition(int pos) => items[pos];
 }
 
 class Item {
