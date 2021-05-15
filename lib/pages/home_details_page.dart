@@ -15,25 +15,28 @@ class HomeDetailsPage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: Colors.transparent,
       ),
-      backgroundColor: MyTheme.creamColor,
-      bottomNavigationBar: ButtonBar(
-        alignment: MainAxisAlignment.spaceBetween,
-        buttonPadding: EdgeInsets.zero,
-        children: [
-          "\$${catalog.price}".text.bold.xl4.red800.make(),
-          ElevatedButton(
-            onPressed: () {},
-            style: ButtonStyle(
-                backgroundColor: MaterialStateProperty.all(
-                  MyTheme.darkBluishColor,
-                ),
-                shape: MaterialStateProperty.all(
-                  StadiumBorder(),
-                )),
-            child: "Add to cart".text.make(),
-          ).wh(120, 50)
-        ],
-      ).p32(),
+      backgroundColor: Theme.of(context).canvasColor,
+      bottomNavigationBar: Container(
+        color: Theme.of(context).cardColor,
+        child: ButtonBar(
+          alignment: MainAxisAlignment.spaceBetween,
+          buttonPadding: EdgeInsets.zero,
+          children: [
+            "\$${catalog.price}".text.bold.xl4.red800.make(),
+            ElevatedButton(
+              onPressed: () {},
+              style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(
+                    Theme.of(context).buttonColor,
+                  ),
+                  shape: MaterialStateProperty.all(
+                    StadiumBorder(),
+                  )),
+              child: "Add to cart".text.make(),
+            ).wh(120, 50)
+          ],
+        ).p32(),
+      ),
       body: SafeArea(
         bottom: false,
         child: Column(
@@ -48,12 +51,12 @@ class HomeDetailsPage extends StatelessWidget {
                 arcType: VxArcType.CONVEY,
                 edge: VxEdge.TOP,
                 child: Container(
-                  color: Colors.white,
+                  color: Theme.of(context).cardColor,
                   width: context.screenWidth,
                   child: Column(
                     children: [
                       catalog.name.text.xl
-                          .color(MyTheme.darkBluishColor)
+                          .color(Theme.of(context).accentColor)
                           .bold
                           .make(),
                       catalog.desc.text.textStyle(context.captionStyle).make(),

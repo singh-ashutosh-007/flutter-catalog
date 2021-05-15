@@ -29,7 +29,7 @@ class _LoginPageState extends State<LoginPage> {
     var textStyle = TextStyle(
         fontSize: 28, color: Colors.blue, fontWeight: FontWeight.bold);
     return Material(
-      color: Colors.white,
+      color: Theme.of(context).canvasColor,
       child: SingleChildScrollView(
         child: Center(
           child: Form(
@@ -86,7 +86,7 @@ class _LoginPageState extends State<LoginPage> {
                         height: 40.0,
                       ),
                       Material(
-                        color: Colors.deepPurple,
+                        color: Theme.of(context).buttonColor,
                         borderRadius:
                             BorderRadius.circular(changeButton ? 50 : 8),
                         child: InkWell(
