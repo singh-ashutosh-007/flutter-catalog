@@ -12,7 +12,9 @@ class HomeDetailsPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.transparent,
+      ),
       backgroundColor: MyTheme.creamColor,
       bottomNavigationBar: ButtonBar(
         alignment: MainAxisAlignment.spaceBetween,
@@ -28,8 +30,8 @@ class HomeDetailsPage extends StatelessWidget {
                 shape: MaterialStateProperty.all(
                   StadiumBorder(),
                 )),
-            child: "Buy".text.make(),
-          ).wh(100, 50)
+            child: "Add to cart".text.make(),
+          ).wh(120, 50)
         ],
       ).p32(),
       body: SafeArea(
@@ -39,7 +41,7 @@ class HomeDetailsPage extends StatelessWidget {
             Hero(
               tag: Key(catalog.id.toString()),
               child: Image.network(catalog.image),
-            ).h32(context),
+            ).h24(context),
             Expanded(
               child: VxArc(
                 height: 30.0,
@@ -56,6 +58,11 @@ class HomeDetailsPage extends StatelessWidget {
                           .make(),
                       catalog.desc.text.textStyle(context.captionStyle).make(),
                       10.heightBox,
+                      "Feels lineage made begun friends fondly vast amiss. Before by harold to near to not. Fly caught known not companie.."
+                          .text
+                          .textStyle(context.captionStyle)
+                          .make()
+                          .p16()
                     ],
                   ).py64().px12(),
                 ),
