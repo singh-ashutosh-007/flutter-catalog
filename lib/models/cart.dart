@@ -1,12 +1,16 @@
 import 'package:flutter_catalog/models/catalog.dart';
 
 class CartModel {
-  CartModel _catalog;
+  static final cartModel = CartModel._internal();
+  CartModel._internal();
+  factory CartModel() => cartModel;
+
+  CatalogModel _catalog;
   final List<int> _itemIds = [];
 
-  CartModel get catatog => _catalog;
+  CatalogModel get catatog => _catalog;
 
-  set catalog(CartModel newCatalog) {
+  set catalog(CatalogModel newCatalog) {
     assert(newCatalog != null);
     _catalog = newCatalog;
   }
