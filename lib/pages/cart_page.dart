@@ -28,7 +28,7 @@ class _CartTotal extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     // final _cart = CartModel();
-    final CartModel _cart = (VxState.store as MyStore).cart;
+    final CartModel? _cart = (VxState.store as MyStore).cart;
     return SizedBox(
       height: 200,
       // width: ,
@@ -39,7 +39,7 @@ class _CartTotal extends StatelessWidget {
             notifications: {},
             mutations: {RemoveMutation},
             builder: (context, _) {
-              return "\$${_cart.totalPrice}"
+              return "\$${_cart!.totalPrice}"
                   .text
                   .xl5
                   .color(Theme.of(context).accentColor)
@@ -68,7 +68,7 @@ class _CartList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     VxState.watch(context, on: [RemoveMutation]);
-    final CartModel _cart = (VxState.store as MyStore).cart;
+    final CartModel _cart = (VxState.store as MyStore).cart!;
     return _cart.items.isEmpty
         ? "Nothing to show".text.xl2.makeCentered()
         : ListView.builder(
@@ -83,7 +83,7 @@ class _CartList extends StatelessWidget {
                   RemoveMutation(_cart.items[index]);
                 },
               ),
-              title: _cart.items[index].name.text.make(),
+              title: _cart.items[index].name!.text.make(),
             ),
           );
   }

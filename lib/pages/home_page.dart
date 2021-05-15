@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
         ).badge(
             color: Vx.red500,
             size: 22,
-            count: _cart.items.length,
+            count: _cart!.items.length,
             textStyle: TextStyle(
               color: Colors.black,
               fontWeight: FontWeight.bold,
@@ -77,7 +77,7 @@ class _HomePageState extends State<HomePage> {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               CatalogHeader(),
-              if (CatalogModel.items != null && CatalogModel.items.isNotEmpty)
+              if (CatalogModel.items != null && CatalogModel.items!.isNotEmpty)
                 CatalogList().expand()
               else
                 Center(

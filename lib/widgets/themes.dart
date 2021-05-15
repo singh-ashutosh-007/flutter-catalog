@@ -38,7 +38,7 @@ class MyTheme {
           textTheme: Theme.of(context).textTheme.copyWith(
               headline6: Theme.of(context)
                   .textTheme
-                  .headline6
+                  .headline6!
                   .copyWith(color: Colors.white)),
         ),
       );

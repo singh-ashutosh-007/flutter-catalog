@@ -6,9 +6,9 @@ import 'package:flutter_catalog/models/catalog.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class AddToCart extends StatelessWidget {
-  final Item catalog;
+  final Item? catalog;
   AddToCart({
-    Key key,
+    Key? key,
     this.catalog,
   }) : super(key: key);
 
@@ -17,7 +17,7 @@ class AddToCart extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     VxState.watch(context, on: [AddMutation, RemoveMutation]);
-    final CartModel _cart = (VxState.store as MyStore).cart;
+    final CartModel _cart = (VxState.store as MyStore).cart!;
     // final CatalogModel _catalog = (VxState.store as MyStore).catalog;
     bool isInCart = _cart.items.contains(catalog) ?? false;
     return ElevatedButton(

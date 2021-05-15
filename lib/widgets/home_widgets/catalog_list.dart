@@ -11,10 +11,10 @@ class CatalogList extends StatelessWidget {
   Widget build(BuildContext context) {
     return ListView.builder(
       shrinkWrap: true,
-      itemCount: CatalogModel.items.length,
+      itemCount: CatalogModel.items!.length,
       itemBuilder: (context, index) {
         // final catalog = CatalogModel.items[index];
-        final catalog = CatalogModel.items[index];
+        final catalog = CatalogModel.items![index];
         return InkWell(
           onTap: () => Navigator.push(
             context,
@@ -37,7 +37,7 @@ class CatalogList extends StatelessWidget {
 class CatalogItem extends StatelessWidget {
   final Item catalog;
 
-  const CatalogItem({Key key, @required this.catalog})
+  const CatalogItem({Key? key, required this.catalog})
       : assert(catalog != null),
         super(key: key);
   @override
@@ -56,11 +56,11 @@ class CatalogItem extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                catalog.name.text.sm
+                catalog.name!.text.sm
                     .color(Theme.of(context).accentColor)
                     .bold
                     .make(),
-                catalog.desc.text.textStyle(context.captionStyle).make(),
+                catalog.desc!.text.textStyle(context.captionStyle!).make(),
                 10.heightBox,
                 ButtonBar(
                   alignment: MainAxisAlignment.spaceBetween,

@@ -12,7 +12,7 @@ class _LoginPageState extends State<LoginPage> {
   final _formKey = GlobalKey<FormState>();
 
   moveToHome(BuildContext context) async {
-    if (_formKey.currentState.validate()) {
+    if (_formKey.currentState!.validate()) {
       setState(() {
         changeButton = true;
       });
@@ -59,7 +59,7 @@ class _LoginPageState extends State<LoginPage> {
                         decoration: InputDecoration(
                             hintText: 'Enter username', labelText: 'Username'),
                         validator: (value) {
-                          if (value.isEmpty) {
+                          if (value!.isEmpty) {
                             return "Username can't be blank";
                           }
                           return null;
@@ -72,7 +72,7 @@ class _LoginPageState extends State<LoginPage> {
                       TextFormField(
                         obscureText: true,
                         validator: (value) {
-                          if (value.isEmpty) {
+                          if (value!.isEmpty) {
                             return "Password can't be blank";
                           } else if (value.length < 6) {
                             return "Password length shpuld me minimum 6.";

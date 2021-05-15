@@ -7,10 +7,10 @@ class CartModel {
   // CartModel._internal();
   // factory CartModel() => cartModel;
 
-  CatalogModel _catalog;
-  final List<int> _itemIds = [];
+  CatalogModel? _catalog;
+  final List<int?> _itemIds = [];
 
-  CatalogModel get catatog => _catalog;
+  CatalogModel? get catatog => _catalog;
 
   set catalog(CatalogModel newCatalog) {
     assert(newCatalog != null);
@@ -18,10 +18,10 @@ class CartModel {
   }
 
   // Get Items in the cart
-  List<Item> get items => _itemIds.map((id) => _catalog.getById(id)).toList();
+  List<Item> get items => _itemIds.map((id) => _catalog!.getById(id)).toList();
 
   num get totalPrice =>
-      items.fold(0, (total, current) => total + current.price);
+      items.fold(0, (total, current) => total + current.price!);
 
   // void add(Item item) {
   //   _itemIds.add(item.id);
@@ -33,11 +33,11 @@ class CartModel {
 }
 
 class AddMutation extends VxMutation<MyStore> {
-  final Item item;
+  final Item? item;
   AddMutation(this.item);
   @override
   perform() {
-    store.cart._itemIds.add(item.id);
+    store!.cart!._itemIds.add(item!.id);
   }
 }
 
@@ -46,6 +46,6 @@ class RemoveMutation extends VxMutation<MyStore> {
   RemoveMutation(this.item);
   @override
   perform() {
-    store.cart._itemIds.remove(item.id);
+    store!.cart!._itemIds.remove(item.id);
   }
 }

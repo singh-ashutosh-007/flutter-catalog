@@ -5,7 +5,7 @@ class CatalogModel {
   // CatalogModel._internal();
   // factory CatalogModel() => catModel;
 
-  static List<Item> items;
+  static List<Item>? items;
   // static List<Item> items = [
   //   Item(
   //     id: 1,
@@ -18,19 +18,19 @@ class CatalogModel {
   //   )
   // ];
 
-  Item getById(int id) =>
-      items.firstWhere((element) => element.id == id, orElse: null);
+  Item getById(int? id) =>
+      items!.firstWhere((element) => element.id == id, orElse: null);
 
-  Item getByPosition(int pos) => items[pos];
+  Item getByPosition(int pos) => items![pos];
 }
 
 class Item {
-  final int id;
-  final String name;
-  final String desc;
-  final num price;
-  final String color;
-  final String image;
+  final int? id;
+  final String? name;
+  final String? desc;
+  final num? price;
+  final String? color;
+  final String? image;
 
   Item({
     this.id,
@@ -42,12 +42,12 @@ class Item {
   });
 
   Item copyWith({
-    int id,
-    String name,
-    String desc,
-    num price,
-    String color,
-    String image,
+    int? id,
+    String? name,
+    String? desc,
+    num? price,
+    String? color,
+    String? image,
   }) =>
       Item(
         id: id ?? this.id,

@@ -6,7 +6,7 @@ import 'package:velocity_x/velocity_x.dart';
 class HomeDetailsPage extends StatelessWidget {
   final Item catalog;
 
-  const HomeDetailsPage({Key key, @required this.catalog})
+  const HomeDetailsPage({Key? key, required this.catalog})
       : assert(catalog != null),
         super(key: key);
   @override
@@ -35,7 +35,7 @@ class HomeDetailsPage extends StatelessWidget {
           children: [
             Hero(
               tag: Key(catalog.id.toString()),
-              child: Image.network(catalog.image),
+              child: Image.network(catalog.image!),
             ).h24(context),
             Expanded(
               child: VxArc(
@@ -47,15 +47,15 @@ class HomeDetailsPage extends StatelessWidget {
                   width: context.screenWidth,
                   child: Column(
                     children: [
-                      catalog.name.text.xl
+                      catalog.name!.text.xl
                           .color(Theme.of(context).accentColor)
                           .bold
                           .make(),
-                      catalog.desc.text.textStyle(context.captionStyle).make(),
+                      catalog.desc!.text.textStyle(context.captionStyle!).make(),
                       10.heightBox,
                       "Feels lineage made begun friends fondly vast amiss. Before by harold to near to not. Fly caught known not companie.."
                           .text
-                          .textStyle(context.captionStyle)
+                          .textStyle(context.captionStyle!)
                           .make()
                           .p16()
                     ],
