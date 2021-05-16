@@ -8,7 +8,10 @@ import 'package:velocity_x/velocity_x.dart';
 
 import 'pages/home_page.dart';
 
+import 'package:url_strategy/url_strategy.dart';
+
 void main() {
+  setPathUrlStrategy();
   runApp(VxState(store: MyStore(), child: MyApp()));
   // runApp(MyApp());
 }
