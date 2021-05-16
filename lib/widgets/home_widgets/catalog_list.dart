@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_catalog/models/catalog.dart';
 import 'package:flutter_catalog/pages/home_details_page.dart';
+import 'package:flutter_catalog/utils/routes.dart';
 import 'package:flutter_catalog/widgets/home_widgets/add_to_cart.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -43,14 +44,14 @@ class CatalogList extends StatelessWidget {
               // final catalog = CatalogModel.items[index];
               final catalog = CatalogModel.items![index];
               return InkWell(
-                onTap: () => Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => HomeDetailsPage(
-                      // catalog: CatalogModel.getById(1003641),
-                      catalog: catalog,
-                    ),
+                onTap: () => context.vxNav.push(
+                  Uri(
+                    path: MyRoutes.homeDetailsRoute,
+                    queryParameters: {
+                      "id": catalog.id.toString(),
+                    },
                   ),
+                  params: catalog,
                 ),
                 child: CatalogItem(
                   catalog: catalog,
